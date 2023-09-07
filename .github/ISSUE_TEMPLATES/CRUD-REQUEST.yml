@@ -1,0 +1,12 @@
+**As a** Developer 
+**I need** An accounts list CRUD
+**So that** We can keep track of the customers on your e-commerce website 
+      
+### Details and Assumptions
+    * Database model and a Python Flask-based REST API with an endpoint to create a customer account were already developed.
+    * Now we need to add the REST APIs to read, update, delete, and list accounts.
+### Acceptance Criteria     
+    gherkin 
+    Given we have the database model and the endpoint to create a customer
+    When we develop a create, read, update and delete endpoint for our REST API
+    Then the components of our microservice will be finished
