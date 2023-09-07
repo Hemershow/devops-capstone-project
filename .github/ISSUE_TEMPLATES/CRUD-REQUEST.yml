@@ -7,6 +7,6 @@
     * Now we need to add the REST APIs to read, update, delete, and list accounts.
 ### Acceptance Criteria     
     gherkin 
-    Given we have the database model and the endpoint to create a customer
-    When we develop a create, read, update and delete endpoint for our REST API
-    Then the components of our microservice will be finished
+    Given the developed CRUD
+    When asked to create, read, update, delete or list accounts
+    Then the asked task is done and an appropriate answer is sent
